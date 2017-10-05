@@ -1,7 +1,10 @@
 {
+  "name": "java-v-typescript",
+  "version": "1",
   "private": true,
   "dependencies": {
-    "@types/node": "^8.0.28",
-    "ts-lint": "^4.5.1"
+    "@types/node": "^8.0.32",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
   }
 }

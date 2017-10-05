@@ -1,5 +1,6 @@
 {
   "extends": "tslint:recommended",
+  "defaultSeverity": "warn",
   "rules": {
     "ordered-imports": [false],
     "object-literal-sort-keys": false,
@@ -9,9 +10,9 @@
     "interface-name": [false],
     "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
     "prefer-const": false,
-    "no-invalid-this": true,
-    "no-unbound-method": true,
-    "no-unsafe-any": true,
+    "no-invalid-this": {"severity": "error"},
+    "no-unbound-method": {"severity": "error"},
+    "no-unsafe-any": {"severity": "error"},
     "typedef": [
       true,
       "member-variable-declaration",
@@ -23,6 +24,7 @@
     "max-line-length": [true, 120],
     "no-console": false,
     "no-bitwise": false,
-    "no-unused-variable": true
+    "no-unused-variable": true,
+    "semicolon": {"severity": "error"}
   }
 }
