@@ -1,0 +1,20 @@
+{
+	"editor.tabSize": 2,
+  "files.eol": "\n",
+  "eslint.autoFixOnSave": true,  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.wordWrap": "on",
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "editor.wordBasedSuggestions": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.class": true,
+    "**/*.js": true,
+    ".vscode": true,
+    "node_modules": true,
+    "package-lock.json": true
+  }
+}

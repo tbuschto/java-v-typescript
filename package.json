@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "@types/node": "^8.0.28",
+    "ts-lint": "^4.5.1"
+  }
+}

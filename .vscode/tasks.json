@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "showOutput": "always",
+  "isShellCommand": true,
+  "runner": "process",
+  "tasks": [
+    {
+      "taskName": "java",
+      "command": "javac",
+      "suppressTaskName": true,
+      "args": ["${file}", "&&", "java", "-cp", ".\\java", "${fileBasenameNoExtension}"]
+    },
+    {
+      "taskName": "ts-node",
+      "command": "ts-node",
+      "suppressTaskName": true,
+      "args": ["${file}"]
+    }
+  ]
+}
