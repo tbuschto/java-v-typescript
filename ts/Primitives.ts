@@ -1,5 +1,5 @@
 /**
- * Type syntax, inferrence, const, string handling
+ * Primitives
  */
 
 let bool: boolean = true && false;

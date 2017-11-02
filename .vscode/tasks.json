@@ -8,7 +8,7 @@
       "taskName": "java",
       "command": "javac",
       "suppressTaskName": true,
-      "args": ["${file}", "&&", "java", "-cp", ".\\java", "${fileBasenameNoExtension}"]
+      "args": ["./java/*.java", "&&", "java", "-cp", ".\\java", "${fileBasenameNoExtension}"]
     },
     {
       "taskName": "ts-node",
