@@ -19,7 +19,7 @@
       "parameter",
       "property-declaration"
     ],
-    "quotemark": [true, "single"],
+    "quotemark": [true, "double"],
     "indent": [true, "spaces"],
     "max-line-length": [true, 120],
     "no-console": false,

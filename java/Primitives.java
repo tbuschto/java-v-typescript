@@ -11,7 +11,7 @@ public class Primitives {
     int i = 2147483647;
     long l = 2147483648L;
     char c = 'a';
-    System.out.println(l - b + c + s + i);
+    System.out.println(l - b + c + s - i);
 
     float f = 3.14F;
     double d = Math.PI;
@@ -22,7 +22,7 @@ public class Primitives {
     System.out.println(nan + inf);
 
     String str = "foo" + "bar" + c;
-    System.out.println(str == "foobara"); // What's wrong here?
+    System.out.println(str == "foobara"); // false??
 
   }
 
