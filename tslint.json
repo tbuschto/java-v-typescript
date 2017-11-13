@@ -13,6 +13,7 @@
     "no-invalid-this": {"severity": "error"},
     "no-unbound-method": {"severity": "error"},
     "no-unsafe-any": {"severity": "error"},
+    "max-classes-per-file": false,
     "typedef": [
       true,
       "member-variable-declaration",
