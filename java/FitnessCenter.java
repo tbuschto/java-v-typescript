@@ -1,9 +1,9 @@
 public class FitnessCenter {
 
   public static void main(String[] args) {
-    Mammal peter = new Mammal.Human();
-    Mammal waldo = new Mammal.Dog();
-    Mammal flipper = new Mammal.Dolphin();
+    Mammal.Human peter = new Mammal.Human();
+    Mammal.Dog waldo = new Mammal.Dog();
+    Mammal.Dolphin flipper = new Mammal.Dolphin();
 
     peter.talk();
     waldo.talk();

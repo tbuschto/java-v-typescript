@@ -3,6 +3,7 @@
   "defaultSeverity": "warn",
   "rules": {
     "ban-types": false,
+    "unified-signatures": false,
     "ordered-imports": [false],
     "object-literal-sort-keys": false,
     "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
