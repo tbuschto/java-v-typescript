@@ -2,6 +2,7 @@
   "extends": "tslint:recommended",
   "defaultSeverity": "warn",
   "rules": {
+    "ban-types": false,
     "ordered-imports": [false],
     "object-literal-sort-keys": false,
     "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
