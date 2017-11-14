@@ -1,10 +1,10 @@
-public abstract class Mammel {
+public abstract class Mammal {
 
   public abstract void talk();
 
   // Nested classes:
 
-  public static class Human extends Mammel {
+  public static class Human extends Mammal {
 
     public void talk() {
       System.out.println("Hello!");
@@ -20,7 +20,7 @@ public abstract class Mammel {
 
   }
 
-  public static class Dog extends Mammel {
+  public static class Dog extends Mammal {
 
     public void talk() {
       System.out.println("Woof!");
@@ -36,7 +36,7 @@ public abstract class Mammel {
 
   }
 
-  public static class Dolphin extends Mammel {
+  public static class Dolphin extends Mammal {
 
     public void talk() {
       System.out.println("Blubb!");

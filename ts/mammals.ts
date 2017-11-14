@@ -1,10 +1,10 @@
-export abstract class Mammel {
+export abstract class Mammal {
 
   public abstract talk(): void;
 
 }
 
-export class Human extends Mammel {
+export class Human extends Mammal {
 
   public talk() {
     console.log("Hello!");
@@ -20,7 +20,7 @@ export class Human extends Mammel {
 
 }
 
-export class Dog extends Mammel {
+export class Dog extends Mammal {
 
   public talk() {
     console.log("Woof!");
@@ -36,7 +36,7 @@ export class Dog extends Mammel {
 
 }
 
-export class Dolphin extends Mammel {
+export class Dolphin extends Mammal {
 
   public talk() {
     console.log("Blubb!");

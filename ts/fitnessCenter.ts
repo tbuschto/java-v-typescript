@@ -1,26 +1,26 @@
-// Import all mammels:
-import * as mammels from "./mammels";
+// Import all mammals:
+import * as mammals from "./mammals";
 
-let peter: mammels.Mammel = new mammels.Human();
-let waldo: mammels.Mammel  = new mammels.Dog();
-let flipper: mammels.Mammel  = new mammels.Dolphin();
+let peter: mammals.Mammal = new mammals.Human();
+let waldo: mammals.Mammal  = new mammals.Dog();
+let flipper: mammals.Mammal  = new mammals.Dolphin();
 
 peter.talk();
 waldo.talk();
 flipper.talk();
 
 /*
-function train(customer: mammels.Mammel) {
-  if (customer instanceof mammels.Human) {
-    let human: mammels.Human = customer as mammels.Human;
+function train(customer: mammals.Mammal) {
+  if (customer instanceof mammals.Human) {
+    let human: mammals.Human = customer as mammals.Human;
     human.run(3000);
     human.lift(10);
-  } else if (customer instanceof mammels.Dog) {
-    let dog: mammels.Dog = customer as mammels.Dog;
+  } else if (customer instanceof mammals.Dog) {
+    let dog: mammals.Dog = customer as mammals.Dog;
     dog.run(2000);
     dog.swim(300);
-  } else if (customer instanceof mammels.Dolphin) {
-    let dolphin: mammels.Dolphin = customer as mammels.Dolphin;
+  } else if (customer instanceof mammals.Dolphin) {
+    let dolphin: mammals.Dolphin = customer as mammals.Dolphin;
     dolphin.swim(300);
   }
 }
