@@ -1,6 +1,6 @@
 {
   "name": "java-v-typescript",
-  "version": "1",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@types/node": "^8.0.32",
